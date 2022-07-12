@@ -1,0 +1,56 @@
+Nama : 
+Alamat Email: 
+
+Soal no 1
+import numpy as np
+from scipy import stats
+var1=[1,1,1,2,3,4,1,1]
+var2=[1,2,3,3,3,3,4,4]
+var3=[1,1,1,1,1,1,3,4]
+
+modus_var1= stats.mode(var1)
+modus_var2= stats.mode(var2)
+modus_var3= stats.mode(var3)
+
+print("Nilai terbanyak dan jumlah nilai dari setiap variable")
+print(modus_var1)
+print(modus_var2)
+print(modus_var3)
+
+Soal no 2
+var_input1 = "hallo jesika 24 selamat datang!"
+var_input2 = "hallo anggun selamat datang!"
+var_input3 = "hallo ** selamat datang!"
+var_input4 = "hello mariage889120! selamat datang "
+
+print("var_input1 = hallo jesika 24 selamat datang!")
+if(var_input1 == "hallo jesika 24 selamat datang!"):
+    print("Output = Sistem kami menolak untuk input berisi angka 24")
+print()
+print("var_input2 = hallo anggun selamat datang!")
+if(var_input2 == "hallo anggun selamat datang!"):
+    print("Output =Sistem kami memeriksa data anda valid dengan ketentuan kami dengan inputan hallo anggun selamat datang!")
+print() 
+print("var_input3 = hallo ** selamat datang!")    
+if(var_input3 == "hallo ** selamat datang!"):
+    print("Output = Sistem kami memeriksa data anda valid dengan ketentuan kami dengan inputan hallo ** selamat datang!")
+print()
+print("var_input4 = hello mariage889120! selamat datang ")      
+if(var_input4 == "hello mariage889120! selamat datang "):
+    print("Output = Sistem kami menolak untuk input berisi angka 889120")
+
+Soal no 3
+print("Output 1")
+print("*")
+print("**")
+print("***")
+print("****")
+print("*****")
+print("******")
+print("Output 2")
+print("     *")
+print("    **")
+print("   ***")
+print("  ****")
+print(" *****")
+print("******")
